@@ -1,0 +1,48 @@
+<div class="container-fluid">
+    <div class="name">Weather-Application</div>
+
+    <div class="desc blockquote">
+        <p>
+            A simple weather application built on <a href="https://expressjs.com/" target="
+        _blank">Express</a>
+            framework
+        </p>
+    </div>
+
+    <div class="main container">
+        <div class="myerror">
+
+        </div>
+        <form method="post" onsubmit="handleForm(event);">
+            <h3 class="text-center">Enter city and temperature unit</h3>
+            <div class="form-group">
+                <div class="rohit">
+                    <input type="text" name="city" placeholder="Enter city" class="form-control" autocomplete="off"
+                        autofocus id="city">
+                    <select name="units" class="form-control" id="units">
+                        <option value="1">°Celsius</option>
+                        <option value="2">°Fahrenheit</option>
+                    </select>
+                </div>
+
+                <input type="submit" value="Submit" class="btn btn-info mybtn" data-toggle="modal">
+            </div>
+        </form>
+        <div class="loader">Loading...</div>
+
+        <div class="result">
+            <div class="main-result">
+                <h3>Weather result for <i id="res-city"></i> </h3>
+                <h5 class="temp">Temperature: <span id="temp"></span></h5>
+                <h5 class="maxtemp">Max. Temperature: <span id="max-temp"></span></h5>
+                <h5 class="mintemp">Min. Temperature: <span id="min-temp"></span></h5>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            Created by Rohit Dalal
+        </div>
+    </footer>
+</div>

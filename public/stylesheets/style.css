@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.name{
+  width: 90%;
+  margin: 0 5% 10px 5%;
+  font-size: 2rem;
+  background-color: aliceblue;
+  text-align: center;
+  cursor: pointer;
+}
+
+.desc{
+  width: 90%;
+  margin: 10px 5% 10px 5%;
+  font-size: 1.3rem;
+  text-align: center;
+}
+/* MAIN APP */
+.rohit{
+  display: flex;
+  flex-flow: row;
+  
+}
+.myform{
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  border: 2px solid red;
+
+}
+.main{
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #eee;
+  overflow:hidden;
+}
+label{
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+.mybtn{
+  width: 70%;
+  margin: 10px 15% 6px 15%;
+}
+
+.main-result{
+  display: none;
+  text-align: center;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 10px 5% 10px 5%;
+  background-color: lightyellow;
+  padding: 10px;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+
+
+/* Footer */
+footer{
+  background-color: darkcyan;
+  color: white;
+  font-size: 1.22em;
+  text-align: center;
+  position: fixed;
+  top: 93vh;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+}
